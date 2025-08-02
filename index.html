@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stationery Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="logo">
+            <img src="logo.png" alt="Stationery Haven Logo">
+            <h1>Stationery Haven</h1>
+        </div>
+
+        <!-- Hamburger Icon for Mobile -->
+        <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <!-- Navigation Bar -->
+        <nav id="navbar">
+            <ul>
+                    <li><a href="#writing-instruments">Writing Instruments</a></li>
+                    <li><a href="#paper-products">Paper Products</a></li>
+                    <li><a href="#art-supplies">Art Supplies</a></li>
+                    <li><a href="#office-essentials">Office Essentials</a></li>
+                    <li><a href="#others">Others</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Writing Instruments Section -->
+        <div id="products" class="tabcontent">
+        <section id="writing-instruments">
+            <h2>Writing Instruments</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="ballpoint-pen.webp" alt="Ballpoint Pen">
+                    <h3>Ballpoint Pen</h3>
+                    <p class="price">$10.50</p>
+                    <button class="add-to-cart" data-item="Ballpoint Pen">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="fountain-pen.webp" alt="Fountain Pen">
+                    <h3>Fountain Pen</h3>
+                    <p class="price">$200.00</p>
+                    <button class="add-to-cart" data-item="Fountain Pen">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="gel-pen.webp" alt="Gel Pen">
+                    <h3>Gel Pen</h3>
+                    <p class="price">$5.00</p>
+                    <button class="add-to-cart" data-item="Gel Pen">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="mechanical-pencil.webp" alt="Mechanical Pencil">
+                    <h3>Mechanical Pencil</h3>
+                    <p class="price">$15.50</p>
+                    <button class="add-to-cart" data-item="Mechanical Pencil">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="highlighter.webp" alt="Highlighter">
+                    <h3>Highlighter</h3>
+                    <p class="price">$15.00</p>
+                    <button class="add-to-cart" data-item="Highlighter">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="marker.webp" alt="Marker">
+                    <h3>Marker</h3>
+                    <p class="price">$20.00</p>
+                    <button class="add-to-cart" data-item="Marker">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="calligraphy-pen.webp" alt="Calligraphy Pen">
+                    <h3>Calligraphy Pen</h3>
+                    <p class="price">$25.00</p>
+                    <button class="add-to-cart" data-item="Calligraphy Pen">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Paper Products Section -->
+        <section id="paper-products">
+            <h2>Paper Products</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="notebook.webp" alt="Notebook">
+                    <h3>Notebook</h3>
+                    <p class="price">$30.50</p>
+                    <button class="add-to-cart" data-item="Notebook">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="journal.webp" alt="Journal">
+                    <h3>Journal</h3>
+                    <p class="price">$50.00</p>
+                    <button class="add-to-cart" data-item="Journal">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="sticky-notes.webp" alt="Sticky Notes">
+                    <h3>Sticky Notes</h3>
+                    <p class="price">$20.50</p>
+                    <button class="add-to-cart" data-item="Sticky Notes">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="printer-paper.webp" alt="Printer Paper">
+                    <h3>Printer Paper</h3>
+                    <p class="price">$100.50</p>
+                    <button class="add-to-cart" data-item="Printer Paper">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="sketch-pads.webp" alt="Sketch Pads">
+                    <h3>Sketch Pads</h3>
+                    <p class="price">$200.50</p>
+                    <button class="add-to-cart" data-item="Sketch Pads">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="index-cards.webp" alt="Index Cards">
+                    <h3>Index Cards</h3>
+                    <p class="price">$250.50</p>
+                    <button class="add-to-cart" data-item="Index Cards">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="postcards.webp" alt="Postcards">
+                    <h3>Postcards</h3>
+                    <p class="price">$500.00</p>
+                    <button class="add-to-cart" data-item="Postcards">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Art Supplies Section -->
+        <section id="art-supplies">
+            <h2>Art Supplies</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="watercolors.webp" alt="Watercolors">
+                    <h3>Watercolors</h3>
+                    <p class="price">$35.00</p>
+                    <button class="add-to-cart" data-item="Watercolors">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="acrylic-paints.webp" alt="Acrylic Paints">
+                    <h3>Acrylic Paints</h3>
+                    <p class="price">$50.00</p>
+                    <button class="add-to-cart" data-item="Acrylic Paints">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="oil-pastels.webp" alt="Oil Pastels">
+                    <h3>Oil Pastels</h3>
+                    <p class="price">$60.15</p>
+                    <button class="add-to-cart" data-item="Oil Pastels">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="color-pencils.webp" alt="Color Pencils">
+                    <h3>Color Pencils</h3>
+                    <p class="price">$35.50</p>
+                    <button class="add-to-cart" data-item="Color Pencils">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="crayons.webp" alt="Crayons">
+                    <h3>Crayons</h3>
+                    <p class="price">$20.00</p>
+                    <button class="add-to-cart" data-item="Crayons">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="brushes.webp" alt="Brushes">
+                    <h3>Brushes</h3>
+                    <p class="price">$50.00</p>
+                    <button class="add-to-cart" data-item="Brushes">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="canvas-boards.webp" alt="Canvas Boards">
+                    <h3>Canvas Boards</h3>
+                    <p class="price">$250.00</p>
+                    <button class="add-to-cart" data-item="Canvas Boards">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Office Essentials Section -->
+        <section id="office-essentials">
+            <h2>Office Essentials</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="stapler.webp" alt="Stapler">
+                    <h3>Stapler</h3>
+                    <p class="price">$50.50</p>
+                    <button class="add-to-cart" data-item="Stapler">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="clips.webp" alt="Paper Clips">
+                    <h3>Paper Clips</h3>
+                    <p class="price">$35.50</p>
+                    <button class="add-to-cart" data-item="Paper Clips">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="binder-clips.webp" alt="Binder Clips">
+                    <h3>Binder Clips</h3>
+                    <p class="price">$54.63</p>
+                    <button class="add-to-cart" data-item="Binder Clips">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="push-pins.webp" alt="Push Pins">
+                    <h3>Push Pins</h3>
+                    <p class="price">$18.50</p>
+                    <button class="add-to-cart" data-item="Push Pins">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="file-folders.webp" alt="File Folders">
+                    <h3>File Folders</h3>
+                    <p class="price">$55.50</p>
+                    <button class="add-to-cart" data-item="File Folders">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="document-holders.webp" alt="Document Holders">
+                    <h3>Document Holders</h3>
+                    <p class="price">$150.50</p>
+                    <button class="add-to-cart" data-item="Document Holders">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="tape-dispenser.webp" alt="Tape Dispenser">
+                    <h3>Tape Dispenser</h3>
+                    <p class="price">$100.00</p>
+                    <button class="add-to-cart" data-item="Tape Dispenser">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Others Section -->
+        <section id="others">
+            <h2>Other Products</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="bag.webp" alt="Bag">
+                    <h3>Bag</h3>
+                    <p class="price">$300.00</p>
+                    <button class="add-to-cart" data-item="Bag">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="wallet.webp" alt="Wallet">
+                    <h3>Wallet</h3>
+                    <p class="price">$200.00</p>
+                    <button class="add-to-cart" data-item="Wallet">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="keychains.webp" alt="Keychains">
+                    <h3>Keychains</h3>
+                    <p class="price">$10.50</p>
+                    <button class="add-to-cart" data-item="Keychains">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="luggage.webp" alt="Luggage">
+                    <h3>Luggage</h3>
+                    <p class="price">$500.00</p>
+                    <button class="add-to-cart" data-item="Luggage">Add to Cart</button>
+                </div>
+            </div>
+          </div>
+        </section>
+        <div id="cart" class="tabcontent">
+          <h2>Your Cart</h2>
+          <ul id="cart-items"></ul>
+          <p id="cart-total-display">Total: $0.00</p>
+          <button id="pay-now" class="pay-button">Pay Now</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Stationery Haven | All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

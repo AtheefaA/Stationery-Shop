@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Stationery Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Stationery Shop</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#products">Products</a></li>
+        <li><a href="index.html#cart">Cart</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="checkout">
+    <h2>Checkout</h2>
+    <div id="order-summary">
+      <h3>Order Summary</h3>
+      <ul id="checkout-items"></ul>
+      <p id="checkout-total">Total: $0</p>
+    </div>
+    <form id="address-form">
+      <h3>Delivery Details</h3>
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" required></textarea>
+      <p>Estimated Delivery Date: <span id="delivery-date"></span></p>
+      <button type="submit">Place Order</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Stationery Shop. All rights reserved.</p>
+  </footer>
+
+  <script src="checkout.js"></script>
+</body>
+</html>
