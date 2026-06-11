@@ -118,19 +118,13 @@ Online-Stationery-Store/
 
 ## 📷 Website Preview
 
-### Home Page
+### 🏠 Home Page
 
-```markdown
 ![Home Page](Atheefa.png)
-```
 
-### Logo
+### 🎨 Logo
 
-```markdown
 ![Logo](logo.png)
-```
-
-
 
 ---
 
