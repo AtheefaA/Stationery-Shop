@@ -4,6 +4,8 @@
 
 The **Online Stationery Store** is a responsive e-commerce website designed to showcase and sell a variety of stationery products such as pens, notebooks, art supplies, office accessories, and school essentials. The project provides an intuitive shopping experience with product listings, contact pages, and a checkout interface.
 
+🌐 **Live Website:** https://atheefaa.github.io/Stationery-Shop/
+
 It is built using HTML, CSS, and JavaScript, making it an excellent frontend web development project.
 
 ---
@@ -59,6 +61,12 @@ Online-Stationery-Store/
 
 ---
 
+## 🚀 Live Demo
+
+👉 https://atheefaa.github.io/Stationery-Shop/
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -71,6 +79,10 @@ Online-Stationery-Store/
 2. Open the project folder.
 3. Open `index.html` in your preferred web browser.
 4. Explore the website and its features.
+
+Or visit the live demo:
+
+👉 https://atheefaa.github.io/Stationery-Shop/
 
 ---
 
@@ -156,6 +168,8 @@ Online-Stationery-Store/
 **AtheefaA**
 
 GitHub: https://github.com/AtheefaA
+
+Live Website: https://atheefaa.github.io/Stationery-Shop/
 
 ---
 
